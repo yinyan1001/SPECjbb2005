@@ -65,4 +65,4 @@ $JAVA -Xms2048m -Xmx2048m spec.jbb.JBBmain -propfile SPECjbb.props
 
 ---
 1. [csdn guofu8241260](http://blog.csdn.net/guofu8241260/article/details/9232747)
-2. [fujitsu](https://sp.ts.fujitsu.com/dmsp/.../Benchmark_Overview_SPECjbb2005.pdf)
+2. [fujitsu](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&ved=0ahUKEwjO7pi51fLQAhUHTo8KHYKhBHcQFghIMAg&url=%68%74%74%70%73%3a%2f%2f%73%70%2e%74%73%2e%66%75%6a%69%74%73%75%2e%63%6f%6d%2f%64%6d%73%70%2f%50%75%62%6c%69%63%61%74%69%6f%6e%73%2f%70%75%62%6c%69%63%2f%42%65%6e%63%68%6d%61%72%6b%5f%4f%76%65%72%76%69%65%77%5f%53%50%45%43%6a%62%62%32%30%30%35%2e%70%64%66&usg=AFQjCNE_B3ExqyB7Dfh74e065_QDvQCe9w&cad=rja)
