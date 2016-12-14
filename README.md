@@ -38,6 +38,8 @@ SPECjbb2005(Java Business Benchmark)基准测试模拟一个三层架构环境�
 
 - `chmod +x ./run.sh`
 
+- `./run.sh`
+
 run.sh内容
 
 ```shell
@@ -56,7 +58,7 @@ $JAVA -Xms2048m -Xmx2048m spec.jbb.JBBmain -propfile SPECjbb.props
 这里关于-Xms2048m -Xmx2048m需要注意，-Xmx3550m:设置JVM最大可用内存为3550M.-Xms3550m:设置JVM促使内存为3550m.此值可以设置与-Xmx相同,以避免每次垃圾回收完成后JVM重新分配内存.且这里设置内存大小标准为，不要超过服务器内存的80%。超过后性能会降低，如果分配内存过少，性能也会较低。
 
 ### 结果
- SPECjbb2005比较好用的一点是，输出结果时会同时生成走势图。走势图和warehouse结果都在result/SPECjbbSingleJVM里。
+ SPECjbb2005比较好用的一点是，输出结果时会同时生成走势图。走势图和warehouse结果都在results/SPECjbbSingleJVM里。
 
 
 参考资料:
