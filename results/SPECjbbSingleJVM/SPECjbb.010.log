@@ -55,3 +55,17 @@
 十二月 14, 2016 10:33:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 7
 十二月 14, 2016 10:33:09 上午 spec.jbb.Company displayResultTotals -> 信息: Timing Measurement began Wed Dec 14 10:33:09 CST 2016 for 4 minutes
 十二月 14, 2016 10:37:09 上午 spec.jbb.Company displayResultTotals -> 信息: Timing Measurement ended Wed Dec 14 10:37:09 CST 2016
+十二月 14, 2016 10:37:09 上午 spec.jbb.Company primeWithDummyData -> 信息: Loading Warehouse 8...
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息: Start User Threads
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 1
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 2
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 3
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 4
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 5
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 6
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 7
+十二月 14, 2016 10:37:09 上午 spec.jbb.JBBmain DoARun -> 信息:   started user thread for Warehouse 8
+十二月 14, 2016 10:37:09 上午 spec.jbb.Company displayResultTotals -> 信息: Timing Measurement began Wed Dec 14 10:37:09 CST 2016 for 4 minutes
+十二月 14, 2016 10:41:09 上午 spec.jbb.Company displayResultTotals -> 信息: Timing Measurement ended Wed Dec 14 10:41:09 CST 2016
+十二月 14, 2016 10:41:09 上午 spec.jbb.JBBmain callReporter -> 信息: Calling Reporter
+十二月 14, 2016 10:41:09 上午 spec.jbb.JBBmain main -> 信息: Logging ended
