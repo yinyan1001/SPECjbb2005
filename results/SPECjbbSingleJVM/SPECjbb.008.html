@@ -1,0 +1,1093 @@
+<HTML><HEAD>
+<META NAME="GENERATOR" CONTENT="SPEC Java Reporter">
+<TITLE> SPECjbb</TITLE>
+</HEAD>
+<BODY >
+<TABLE WIDTH=100%>
+<TR><TD COLSPAN=2><FONT SIZE=+2></FONT>&nbsp;<FONT SIZE=+2>SPECjbb2005</FONT></TD>
+<TD COLSPAN=2 ALIGN=RIGHT bgcolor=FFFF00>    <FONT SIZE=+2 COLOR=000000><B>SPECjbb2005 bops =  1009, SPECjbb2005 bops/JVM =  1009</B></FONT></TD></TR>
+<TR><TD COLSPAN=3><FONT SIZE=+1>Neptune Ocean King Systems TurboBlaster 2</FONT></TD></TR>
+<TR><TD COLSPAN=3><FONT SIZE=+1>Phobos Ltd Phobic Java 1.5.0</FONT></TD></TR>
+</TABLE>
+<h1>No errors.  Valid run.</h1><TABLE BORDER WIDTH="100%">
+    <TH COLSPAN=5></TH>
+    <TH ROWSPAN=11>
+ <UL><IMG SRC="SPECjbb.008.jpg" WIDTH=400 HEIGHT=400></UL></TH></TR>
+<TR><TH ALIGN=RIGHT>Warehouses</TH>
+    <TH ALIGN=RIGHT>SPECjbb2005 bops</TH>
+    <TH ALIGN=RIGHT>Incl. in metric</TH></TR>
+<TR>
+  <TD ALIGN=RIGHT>1</TD>
+  <TD ALIGN=RIGHT>1599</TD>
+  <TD ALIGN=RIGHT> *  </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>2</TD>
+  <TD ALIGN=RIGHT>419</TD>
+  <TD ALIGN=RIGHT> *  </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>3</TD>
+  <TD ALIGN=RIGHT>371</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>4</TD>
+  <TD ALIGN=RIGHT>271</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>5</TD>
+  <TD ALIGN=RIGHT>376</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>6</TD>
+  <TD ALIGN=RIGHT>220</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>7</TD>
+  <TD ALIGN=RIGHT>293</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>8</TD>
+  <TD ALIGN=RIGHT>160</TD>
+  <TD ALIGN=RIGHT>    </TD>
+</TR>
+<TR><TH ALIGN=LEFT>SPECjbb2005 </TH>
+    <TH ALIGN=RIGHT>  (from 1 to 2) </TH>
+    <TH ALIGN=RIGHT>1009 SPECjbb2005 bops</TH>
+</TR>
+</TABLE>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><tr>
+<td width=33%><b>SPEC license # </b>50</td>
+<td width=33%><b>Tested by: </b>Neptune Corp.</td>
+<td><b>Test date: </b>Aug 21, 2009</td>
+</tr></TABLE>
+<P>
+<TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=2>
+<TR><TD WIDTH="50%" VALIGN="TOP">
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+Hardware</TH></TR>
+<TR><TD><B>Hardware Vendor</B></TD>
+<TD>Neptune Ocean King Systems</TD></TR>
+<TR><TD><B>Vendor URL</B></TD>
+<TD><a href="http://www.neptune.com">http://www.neptune.com</a></TD></TR>
+<TR><TD><B>Model</B></TD>
+<TD>TurboBlaster 2</TD></TR>
+<TR><TD><B>Processor</B></TD>
+<TD>ARM</TD></TR>
+<TR><TD><B>MHz</B></TD>
+<TD>300</TD></TR>
+<TR><TD><B># of Chips</B></TD>
+<TD>1</TD></TR>
+<TR><TD><B># of Cores</B></TD>
+<TD>2</TD></TR>
+<TR><TD><B># of Cores/Chip</B></TD>
+<TD>2</TD></TR>
+<TR><TD><B>HW Threading Enabled?</B></TD>
+<TD>No</TD></TR>
+<TR><TD><B>Procs Avail to Java</B></TD>
+<TD>1</TD></TR>
+<TR><TD><B>Memory (MB)</B></TD>
+<TD>4096</TD></TR>
+<TR><TD><B>Memory Details</B></TD>
+<TD>punch cards</TD></TR>
+<TR><TD><B>Primary cache</B></TD>
+<TD>4KBI+4KBD</TD></TR>
+<TR><TD><B>Secondary cache</B></TD>
+<TD>64KB(I+D) off chip</TD></TR>
+<TR><TD><B>Other cache</B></TD>
+<TD>&nbsp;</TD></TR>
+<TR><TD><B>Filesystem</B></TD>
+<TD>UFS</TD></TR>
+<TR><TD><B>Disks</B></TD>
+<TD>1 x 4GB SCSI (classes) 1 x 12GB SCSI (OS)</TD></TR>
+<TR><TD><B>Other hardware</B></TD>
+<TD>AT&T Rotary Telephone</TD></TR>
+</TABLE>
+</TD><TD WIDTH="50%" VALIGN="TOP">
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+Software</TH></TR>
+<TR><TD><B>Software Vendor</B></TD>
+<TD>Phobos Ltd</TD></TR>
+<TR><TD><B>Vendor URL</B></TD>
+<TD><a href="http://www.phobos.uk.co">http://www.phobos.uk.co</a></TD></TR>
+<TR><TD><B>JVM Version</B></TD>
+<TD>Phobic Java 1.5.0</TD></TR>
+<TR><TD><B>JVM Command Line</B></TD>
+<TD>java -ms256m -mx1024m -spec.jbb.JBBmain -propfile Test1</TD></TR>
+<TR><TD><B>JVM Initial Heap Memory (MB)</B></TD>
+<TD>256</TD></TR>
+<TR><TD><B>JVM Maximum Heap Memory (MB) </B></TD>
+<TD>1024</TD></TR>
+<TR><TD><B>JVM Address bits </B></TD>
+<TD>32</TD></TR>
+<TR><TD><B>JVM CLASSPATH</B></TD>
+<TD>./jbb.jar:<BR>./check.jar:<BR>.:/home/softwares/java/jre/lib:<BR>/home/softwares/java/lib:<BR>/home/softwares/java/lib/tools.jar</TD></TR>
+<TR><TD><B>JVM BOOTCLASSPATH</B></TD>
+<TD>/home/softwares/java/jre/lib/vm.jar:<BR>/home/softwares/java/jre/lib/core.jar:<BR>/home/softwares/java/jre/lib/charsets.jar:<BR>/home/softwares/java/jre/lib/graphics.jar:<BR>/home/softwares/java/jre/lib/security.jar:<BR>/home/softwares/java/jre/lib/ibmpkcs.jar:<BR>/home/softwares/java/jre/lib/ibmorb.jar:<BR>/home/softwares/java/jre/lib/ibmcfw.jar:<BR>/home/softwares/java/jre/lib/ibmorbapi.jar:<BR>/home/softwares/java/jre/lib/ibmjcefw.jar:<BR>/home/softwares/java/jre/lib/ibmjgssprovider.jar:<BR>/home/softwares/java/jre/lib/ibmjsseprovider2.jar:<BR>/home/softwares/java/jre/lib/ibmjaaslm.jar:<BR>/home/softwares/java/jre/lib/ibmcertpathprovider.jar:<BR>/home/softwares/java/jre/lib/server.jar:<BR>/home/softwares/java/jre/lib/xml.jar</TD></TR>
+<TR><TD><B>OS Version</B></TD>
+<TD>Phobos DOS V33.333 patch-level 78</TD></TR>
+<TR><TD><B>Other software</B></TD>
+<TD>Neptune JIT Accelerator 2.3b6</TD></TR>
+</TABLE>
+<TR><TD WIDTH="50%" VALIGN="TOP">
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+Test Information</TH></TR>
+<TR><TD><B>Tested by</B></TD>
+<TD>Neptune Corp.</TD></TR>
+<TR><TD><B>SPEC license #</B></TD>
+<TD>50</TD></TR>
+<TR><TD><B>Test location</B></TD>
+<TD>Santa Monica, CA</TD></TR>
+<TR><TD><B>Test date</B></TD>
+<TD>Aug 21, 2009</TD></TR>
+<TR><TD><B>H/w available</B></TD>
+<TD>Jan-2000</TD></TR>
+<TR><TD><B>JVM available</B></TD>
+<TD>Jan-2000</TD></TR>
+<TR><TD><B>OS available</B></TD>
+<TD>May-2000</TD></TR>
+<TR><TD><B>Other s/w available</B></TD>
+<TD>Feb-2000</TD></TR>
+</TABLE>
+</TD><TD WIDTH="50%" VALIGN="TOP">
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+AOT Compilation</TH></TR>
+<TR><TD><p>precompiled code for<ul><li>Deliverytransaction.process</li><li>TransactionManager.go</li></ul>loaded at startup</p></TD></TR>
+</TABLE>
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+Tuning</TH></TR>
+<TR><TD>Operating system tunings<UL><LI>bufcache=1024</LI><LI>maxthreads_per_user=65536</LI></UL></TD></TR>
+</TABLE>
+<TABLE WIDTH="100%" BORDER=1 CELLSPACING=2 CELLPADDING=0><TR><TH COLSPAN=2>
+Notes</TH></TR>
+<TR><TD>"Notes here"</TD></TR>
+</TABLE>
+</TD></TR></TABLE>
+<h1>No errors.  Valid run.</h1><H4>Details of Runs</H4>
+<TABLE BORDER WIDTH=100%>
+<TR><TH ROWSPAN=2>Warehouses</TH>
+  <TH ROWSPAN=2>Thrput</TH>
+  <TH COLSPAN=2>Total heap (MB)</TH>
+  <TH ROWSPAN=2>Thread spread %</TH>
+  <TH ROWSPAN=2>% > 120s</TH>
+  <TH ROWSPAN=2>transaction type</TH>
+  <TH ROWSPAN=2>Count</TH>
+  <TH COLSPAN=4>Time (in seconds)</TH>
+</TR>
+<TR><TH>Size</TH><TH>Used</TH>
+<TH>total</TH><TH>max</TH></TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>1</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>1599</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>1528</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6><0.01% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.016</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>168675</TD>
+  <TD ALIGN=RIGHT>109</TD>
+  <TD ALIGN=RIGHT>2.36</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>116326</TD>
+  <TD ALIGN=RIGHT>53.7</TD>
+  <TD ALIGN=RIGHT>3.73</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>11632</TD>
+  <TD ALIGN=RIGHT>4.53</TD>
+  <TD ALIGN=RIGHT>.121</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>11632</TD>
+  <TD ALIGN=RIGHT>27.7</TD>
+  <TD ALIGN=RIGHT>.831</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>11632</TD>
+  <TD ALIGN=RIGHT>5.80</TD>
+  <TD ALIGN=RIGHT>.769</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>63976</TD>
+  <TD ALIGN=RIGHT>36.9</TD>
+  <TD ALIGN=RIGHT>1.24</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>419</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>559</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>3.35% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.018</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>44288</TD>
+  <TD ALIGN=RIGHT>229</TD>
+  <TD ALIGN=RIGHT>16.0</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>30512</TD>
+  <TD ALIGN=RIGHT>113</TD>
+  <TD ALIGN=RIGHT>16.0</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>3049</TD>
+  <TD ALIGN=RIGHT>7.95</TD>
+  <TD ALIGN=RIGHT>.725</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>3051</TD>
+  <TD ALIGN=RIGHT>39.0</TD>
+  <TD ALIGN=RIGHT>1.04</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>3050</TD>
+  <TD ALIGN=RIGHT>11.3</TD>
+  <TD ALIGN=RIGHT>.859</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>16735</TD>
+  <TD ALIGN=RIGHT>76.2</TD>
+  <TD ALIGN=RIGHT>1.82</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>3</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>371</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>1334</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>.354% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6><0.01</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>39070</TD>
+  <TD ALIGN=RIGHT>339</TD>
+  <TD ALIGN=RIGHT>1.77</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>26947</TD>
+  <TD ALIGN=RIGHT>152</TD>
+  <TD ALIGN=RIGHT>1.71</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>2695</TD>
+  <TD ALIGN=RIGHT>16.2</TD>
+  <TD ALIGN=RIGHT>1.05</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>2695</TD>
+  <TD ALIGN=RIGHT>80.6</TD>
+  <TD ALIGN=RIGHT>1.78</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>2695</TD>
+  <TD ALIGN=RIGHT>15.6</TD>
+  <TD ALIGN=RIGHT>.676</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>14836</TD>
+  <TD ALIGN=RIGHT>115</TD>
+  <TD ALIGN=RIGHT>1.66</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>4</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>271</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>199</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>6.93% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>6.31</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>30404</TD>
+  <TD ALIGN=RIGHT>595</TD>
+  <TD ALIGN=RIGHT>23.6</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>20952</TD>
+  <TD ALIGN=RIGHT>167</TD>
+  <TD ALIGN=RIGHT>1.67</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>2095</TD>
+  <TD ALIGN=RIGHT>17.3</TD>
+  <TD ALIGN=RIGHT>1.01</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>2096</TD>
+  <TD ALIGN=RIGHT>81.8</TD>
+  <TD ALIGN=RIGHT>1.21</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>2095</TD>
+  <TD ALIGN=RIGHT>18.6</TD>
+  <TD ALIGN=RIGHT>.866</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>11492</TD>
+  <TD ALIGN=RIGHT>145</TD>
+  <TD ALIGN=RIGHT>23.6</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>5</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>376</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>989</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>4.94% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.078</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>39705</TD>
+  <TD ALIGN=RIGHT>563</TD>
+  <TD ALIGN=RIGHT>1.95</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>27396</TD>
+  <TD ALIGN=RIGHT>258</TD>
+  <TD ALIGN=RIGHT>1.84</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>2739</TD>
+  <TD ALIGN=RIGHT>24.6</TD>
+  <TD ALIGN=RIGHT>1.04</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>2741</TD>
+  <TD ALIGN=RIGHT>124</TD>
+  <TD ALIGN=RIGHT>1.59</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>2738</TD>
+  <TD ALIGN=RIGHT>28.6</TD>
+  <TD ALIGN=RIGHT>1.46</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>15091</TD>
+  <TD ALIGN=RIGHT>200</TD>
+  <TD ALIGN=RIGHT>1.72</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>6</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>220</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>1468</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>8.04% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.052</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>23230</TD>
+  <TD ALIGN=RIGHT>854</TD>
+  <TD ALIGN=RIGHT>1.49</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>15975</TD>
+  <TD ALIGN=RIGHT>231</TD>
+  <TD ALIGN=RIGHT>1.43</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>1600</TD>
+  <TD ALIGN=RIGHT>21.5</TD>
+  <TD ALIGN=RIGHT>1.03</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>1597</TD>
+  <TD ALIGN=RIGHT>143</TD>
+  <TD ALIGN=RIGHT>1.87</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>1597</TD>
+  <TD ALIGN=RIGHT>26.3</TD>
+  <TD ALIGN=RIGHT>1.13</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>8731</TD>
+  <TD ALIGN=RIGHT>164</TD>
+  <TD ALIGN=RIGHT>1.32</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>7</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>293</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>465</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>11.7% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.035</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>30970</TD>
+  <TD ALIGN=RIGHT>939</TD>
+  <TD ALIGN=RIGHT>33.8</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>21349</TD>
+  <TD ALIGN=RIGHT>294</TD>
+  <TD ALIGN=RIGHT>1.63</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>2134</TD>
+  <TD ALIGN=RIGHT>29.4</TD>
+  <TD ALIGN=RIGHT>1.58</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>2135</TD>
+  <TD ALIGN=RIGHT>128</TD>
+  <TD ALIGN=RIGHT>2.10</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>2136</TD>
+  <TD ALIGN=RIGHT>32.4</TD>
+  <TD ALIGN=RIGHT>1.38</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>11731</TD>
+  <TD ALIGN=RIGHT>255</TD>
+  <TD ALIGN=RIGHT>33.8</TD>
+</TR>
+<TR>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>8</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>160</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>2048</TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>827</TD>
+  <TD VALIGN=TOP ALIGN=CENTER ROWSPAN=6>13.3% </TD>
+  <TD VALIGN=TOP ALIGN=RIGHT ROWSPAN=6>.315</TD>
+  <TD ALIGN=RIGHT>new_order</TD>
+  <TD ALIGN=RIGHT>16841</TD>
+  <TD ALIGN=RIGHT>1182</TD>
+  <TD ALIGN=RIGHT>2.68</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>payment</TD>
+  <TD ALIGN=RIGHT>11634</TD>
+  <TD ALIGN=RIGHT>317</TD>
+  <TD ALIGN=RIGHT>2.07</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>order_status</TD>
+  <TD ALIGN=RIGHT>1162</TD>
+  <TD ALIGN=RIGHT>25.4</TD>
+  <TD ALIGN=RIGHT>1.17</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>delivery</TD>
+  <TD ALIGN=RIGHT>1164</TD>
+  <TD ALIGN=RIGHT>213</TD>
+  <TD ALIGN=RIGHT>3.05</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>stock_level</TD>
+  <TD ALIGN=RIGHT>1165</TD>
+  <TD ALIGN=RIGHT>38.1</TD>
+  <TD ALIGN=RIGHT>1.10</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT>cust_report</TD>
+  <TD ALIGN=RIGHT>6439</TD>
+  <TD ALIGN=RIGHT>229</TD>
+  <TD ALIGN=RIGHT>2.09</TD>
+</TR>
+</TABLE>
+
+<HR><FONT SIZE=-1>
+
+SPECjbb2005 Version: [SPECjbb2005 1.07, March 15, 2006]
+<BR><I>
+
+Reporting page, Copyright &copy; 2005 SPEC. All rights reserved
+</I></FONT>
+<!-- 
+Reporting Page Generator @(#)Report.java	1.18 08/03/98
+#Raw Results
+#Fri Aug 21 17:12:20 CST 2009
+result.test7.company.cust_report.minimumtime=0.0
+config.hw.MHz=300
+result.test8.elapsed_milliseconds=240755
+config.hw.ncores=2
+result.test5.company.delivery.totaltime=123.929
+com.ibm.oti.vm.bootstrap.library.path=/home/softwares/java/jre/bin
+input.cmdline=-propfile SPECjbb.props 
+result.test5.company.stock_level.stddevtime=0.058827311889508765
+config.hw.secondaryCache=64KB(I+D) off chip
+result.test4.company.order_status.totaltime=17.337
+result.test3.company.min_thread_transactions=29593
+result.test3.company.new_order.coeffvartime=602.6775020043741
+result.test7.company.new_order.totaltime=938.515
+result.test6.company.min_warehouse_transactions=8544
+config.benchmark_version=SPECjbb2005 1.07
+result.test7.company.cust_report.stddevtime=0.3240737733267007
+result.test6.warehouses=6
+result.test5.company.max_thread_transactions=18478
+result.test2.company.payment.totaltime=112.877
+result.test4.company.cust_report.coeffvartime=1799.1706253184364
+user.dir=/home/softwares/SPECjbb2005
+result.test2.company.cust_report.maximumtime=1.824
+result.test3.company.stock_level.minimumtime=0.0
+result.test2.company.delivery.totaltime=39.026
+java.vm.version=2.3
+result.test5.company.payment.count=27396
+result.test2.company.delivery.count=3051
+java.fullversion=J2RE 1.5.0 IBM J9 2.3 Linux x86-32 j9vmxi3223ifx-20080811 (JIT enabled)
+ibm.system.encoding=UTF-8
+result.test6.company.new_order.count=23230
+result.test7.company.stock_level.maximumtime=1.38
+result.test5.start_time_milliseconds=1250844776265
+result.test6.company.payment.averagetime=0.01443011
+result.test5.company.min_warehouse_transactions=17566
+result.test6.company.order_status.coeffvartime=457.1426883608738
+result.test1.company.score=1599.2176238762195
+result.test3.company.stock_level.coeffvartime=487.5762453502003
+result.test1.company.cust_report.totaltime=36.904
+result.test5.company.new_order.averagetime=0.014183327
+result.test1.company.payment.totaltime=53.671
+result.test4.company.delivery.coeffvartime=270.71042473439957
+config.hw.hwThreads=No
+result.test6.company.order_status.count=1600
+java.vm.specification.name=Java Virtual Machine Specification
+result.test2.company.new_order.minimumtime=0.0
+result.test5.company.cust_report.coeffvartime=482.18607854405155
+result.test5.company.stock_level.averagetime=0.010452155
+result.test7.company.heapused=464.76085662841797
+result.test1.company.cust_report.stddevtime=0.007311992374373232
+result.test7.company.delivery.stddevtime=0.17544454124700637
+result.test5.company.payment.coeffvartime=574.3622290688934
+result.test1.company.order_status.count=11632
+result.test5.company.new_order.stddevtime=0.0699897546117789
+result.test1.company.payment.coeffvartime=2915.5354966678074
+result.test4.company.payment.stddevtime=0.04493129984804847
+result.test1.company.new_order.stddevtime=0.009780557322176461
+result.test8.company.heapsize=2048.0
+result.test8.company.cust_report.minimumtime=0.0
+result.test4.company.new_order.maximumtime=23.605
+os.name=Linux
+result.test3.company.order_status.count=2695
+result.test8.company.order_status.minimumtime=0.0
+result.test6.company.payment.stddevtime=0.06589564945301112
+result.test1.company.cust_report.count=63976
+input.steady_state=true
+result.test1.company.order_status.maximumtime=0.121
+result.test4.company.min_warehouse_transactions=16735
+config.test.location=Santa Monica, CA
+result.test8.company.score=159.51901310460843
+result.test7.company.stock_level.count=2136
+result.test4.company.new_order.totaltime=594.932
+result.test1.company.stock_level.minimumtime=0.0
+result.test1.company.payment.stddevtime=0.013451825528399316
+config.sw.notes="Notes here"
+result.test4.company.stock_level.coeffvartime=492.08438023501446
+result.test4.company.min_thread_transactions=16735
+result.test7.company.delivery.minimumtime=0.0010
+result.test6.company.max_thread_transactions=9291
+result.test8.company.new_order.coeffvartime=266.4637380901181
+result.test6.company.heapused=1467.802474975586
+result.test3.company.delivery.minimumtime=0.0
+user.name=root
+os.arch=x86
+result.test2.company.payment.count=30512
+result.test3.company.cust_report.maximumtime=1.663
+result.test4.company.stock_level.minimumtime=0.0
+result.test1.elapsed_milliseconds=240038
+result.test8.company.stock_level.maximumtime=1.095
+result.test8.start_time_milliseconds=1250845671354
+result.test3.company.payment.averagetime=0.005629903
+result.test3.company.min_warehouse_transactions=29593
+result.test6.company.delivery.maximumtime=1.869
+result.test6.company.cust_report.maximumtime=1.322
+result.test2.company.delivery.maximumtime=1.042
+result.test2.company.order_status.maximumtime=0.725
+result.test7.company.score=293.45978907382414
+result.test6.company.stock_level.count=1597
+result.test5.company.delivery.averagetime=0.045213062
+result.test3.company.delivery.count=2695
+result.test7.company.stock_level.totaltime=32.355
+result.test1.company.delivery.averagetime=0.0023853164
+user.country=US
+result.test5.company.payment.totaltime=258.38
+result.test1.company.cust_report.averagetime=5.768413E-4
+result.test5.company.order_status.averagetime=0.008975538
+result.test4.company.delivery.stddevtime=0.10567005777704978
+input.measurement_seconds=240
+result.test4.company.stock_level.stddevtime=0.04363226466465694
+result.test3.company.order_status.totaltime=16.201
+config.sw.vendor.url=http\://www.phobos.uk.co
+result.test6.company.stock_level.averagetime=0.016485285
+result.test2.company.new_order.coeffvartime=1608.0687446995387
+result.test1.company.new_order.averagetime=6.4457685E-4
+invokedviajava=
+result.test6.company.cust_report.stddevtime=0.07613871315721553
+result.test2.company.min_warehouse_transactions=49486
+result.test3.company.payment.count=26947
+result.test4.warehouses=4
+config.test.specLicense=50
+result.test1.company.new_order.totaltime=108.724
+result.test6.company.score=219.59487598074327
+result.validity.999_checkit=true
+java.vm.specification.version=1.0
+result.test7.company.order_status.coeffvartime=551.0570659448003
+result.test1.company.order_status.stddevtime=0.002650050711260987
+result.test4.company.payment.totaltime=166.707
+result.test2.company.stock_level.minimumtime=0.0
+result.test4.elapsed_milliseconds=255151
+java.awt.headless=true
+result.test8.company.payment.minimumtime=0.0
+result.test5.company.min_thread_transactions=17566
+result.test6.company.order_status.averagetime=0.0134356255
+result.test7.company.delivery.coeffvartime=291.87667674125794
+result.test3.company.heapsize=2048.0
+result.test7.company.max_thread_transactions=11011
+java.vendor=IBM Corporation
+result.test5.company.stock_level.minimumtime=0.0
+result.test1.company.min_warehouse_transactions=383873
+result.test4.company.cust_report.maximumtime=23.611
+result.test2.company.new_order.count=44288
+result.test5.company.cust_report.totaltime=200.044
+file.separator=/
+result.test7.company.new_order.maximumtime=33.832
+result.test6.company.new_order.minimumtime=0.0
+user.variant=
+result.test1.start_time_milliseconds=1250843695812
+input.ending_number_warehouses=8
+result.test2.company.stock_level.totaltime=11.315
+result.test1.company.cust_report.coeffvartime=1267.5916544084703
+result.test1.company.heapused=1527.8162536621094
+result.test7.company.cust_report.maximumtime=33.804
+result.test8.end_time_milliseconds=1250845912109
+result.test1.company.delivery.stddevtime=0.015284381902950946
+result.test2.company.heapsize=2048.0
+config.sw.otherAvailable=Feb-2000
+result.test2.company.cust_report.averagetime=0.0045529134
+java.library.path=/home/softwares/java/jre/bin\:/lib\:/usr/lib
+result.test4.company.order_status.minimumtime=0.0
+java.jcl.version=20080811a
+result.test4.company.delivery.count=2096
+result.test7.company.stock_level.averagetime=0.015147473
+input.sequence_of_number_of_warehouses=1 2 3 4 5 6 7 8
+sun.arch.data.model=32
+result.test8.company.order_status.totaltime=25.415
+result.test7.elapsed_milliseconds=240084
+result.test7.company.payment.maximumtime=1.626
+result.test3.company.cust_report.count=14836
+result.test7.company.new_order.coeffvartime=1585.0454691367856
+config.test.date=Aug 21, 2009
+path.separator=\:
+sun.io.unicode.encoding=UnicodeLittle
+config.hw.fileSystem=UFS
+result.test7.company.delivery.totaltime=128.333
+result.test5.company.payment.minimumtime=0.0
+result.test8.company.max_warehouse_transactions=5263
+result.test2.company.order_status.stddevtime=0.017926256580143088
+user.language=en
+result.test7.company.order_status.maximumtime=1.581
+result.test2.company.delivery.coeffvartime=322.58454920312454
+result.test6.company.payment.coeffvartime=456.6538406530653
+result.test6.company.new_order.stddevtime=0.1196931889295875
+result.test6.company.min_thread_transactions=8544
+result.test2.company.payment.coeffvartime=2582.707537667483
+result.test1.company.cust_report.minimumtime=0.0
+result.test2.company.new_order.stddevtime=0.08312155560176268
+result.test5.company.order_status.minimumtime=0.0
+result.test5.company.new_order.count=39705
+result.test8.company.max_thread_transactions=5263
+result.test4.company.delivery.totaltime=81.816
+com.ibm.vm.bitmode=32
+result.test4.company.new_order.averagetime=0.019567557
+result.test6.company.stock_level.minimumtime=0.0
+result.test5.company.cust_report.maximumtime=1.723
+result.test3.company.delivery.coeffvartime=384.0438490022326
+result.test2.company.new_order.maximumtime=16.049
+result.test2.company.cust_report.count=16735
+result.test1.company.new_order.minimumtime=0.0
+result.test4.start_time_milliseconds=1250844490979
+java.class.version=49.0
+result.test8.company.stock_level.count=1165
+result.test3.company.stock_level.stddevtime=0.028255902782483962
+result.test1.company.order_status.averagetime=3.8944292E-4
+result.test2.company.order_status.totaltime=7.951
+result.test7.company.max_warehouse_transactions=11011
+result.test1.company.new_order.coeffvartime=1517.3609380800142
+result.test8.company.order_status.coeffvartime=376.41077514719734
+result.test7.company.payment.totaltime=293.757
+result.test1.company.delivery.totaltime=27.746
+result.test1.company.payment.count=116326
+com.ibm.oti.jcl.build=20080809_1128
+result.test5.end_time_milliseconds=1250845016453
+result.test5.company.cust_report.stddevtime=0.06391785295624296
+result.test8.company.cust_report.maximumtime=2.085
+result.test8.company.delivery.minimumtime=0.0010
+input.output_directory=results
+result.test3.company.new_order.maximumtime=1.772
+result.test7.company.delivery.count=2135
+jxe.current.romimage.version=9
+result.test4.company.delivery.minimumtime=0.0
+result.validity.jbb_operation=true
+result.test8.company.order_status.maximumtime=1.174
+config.sw.OS=Phobos DOS V33.333 patch-level 78
+result.test2.warehouses=2
+input.log_level=INFO
+result.test8.company.order_status.count=1162
+result.test3.company.cust_report.averagetime=0.007722162
+result.test1.company.stock_level.maximumtime=0.769
+config.sw.JVMavailable=Jan-2000
+result.test4.company.payment.maximumtime=1.669
+result.test7.company.delivery.maximumtime=2.099
+result.test8.company.stock_level.averagetime=0.032727897
+result.test8.company.cust_report.totaltime=228.844
+result.test3.company.delivery.maximumtime=1.779
+result.test6.company.delivery.averagetime=0.0898397
+result.test6.company.max_warehouse_transactions=9291
+result.test5.company.order_status.count=2739
+result.test2.company.delivery.averagetime=0.012791215
+result.test2.company.order_status.averagetime=0.0026077402
+result.test2.company.payment.minimumtime=0.0
+result.test8.company.payment.stddevtime=0.10985037118085199
+java.home=/home/softwares/java/jre
+result.test6.company.payment.totaltime=230.521
+result.test5.company.delivery.count=2741
+result.test7.warehouses=7
+input.include_file=SPECjbb_config.props
+result.test3.company.payment.stddevtime=0.0391483731086065
+result.test6.company.cust_report.coeffvartime=405.3828731747714
+result.test3.company.order_status.stddevtime=0.04492374403149876
+input.ramp_up_seconds=30
+result.test8.company.new_order.count=16841
+result.test6.end_time_milliseconds=1250845313654
+result.test7.company.min_thread_transactions=9719
+result.test7.company.heapsize=2048.0
+result.test6.company.stock_level.totaltime=26.327
+result.test5.company.payment.stddevtime=0.05416984696554996
+result.test2.company.cust_report.minimumtime=0.0
+input.per_jvm_warehouse_rampdown=20
+result.test7.start_time_milliseconds=1250845375124
+config.hw.processor=ARM
+result.test5.company.max_warehouse_transactions=18478
+result.test7.company.stock_level.minimumtime=0.0
+jxe.lowest.romimage.version=9
+result.test5.company.stock_level.coeffvartime=562.8247255345412
+com.ibm.oti.configuration=scar
+result.test8.company.stock_level.stddevtime=0.11666432279192286
+result.test5.company.heapused=988.7166290283203
+result.test7.company.order_status.totaltime=29.366
+result.test6.company.new_order.coeffvartime=325.5765740454579
+result.test7.company.cust_report.coeffvartime=1488.0129613781908
+input.screen_write=false
+result.test6.company.heapsize=2048.0
+result.test1.company.payment.maximumtime=3.728
+config.hw.other=AT&T Rotary Telephone
+result.test4.company.cust_report.averagetime=0.012578576
+result.test2.company.stock_level.maximumtime=0.859
+result.test8.company.payment.maximumtime=2.071
+result.test7.end_time_milliseconds=1250845615208
+result.test5.company.cust_report.count=15091
+result.test4.company.max_warehouse_transactions=17982
+result.test8.company.delivery.count=1164
+result.test1.company.stock_level.count=11632
+result.test6.company.delivery.coeffvartime=240.8301827460512
+input.expected_peak_warehouse=1
+config.sw.command_line=java -ms256m -mx1024m -spec.jbb.JBBmain -propfile Test1
+result.test3.company.order_status.maximumtime=1.052
+result.test4.company.new_order.minimumtime=0.0
+ibm.signalhandling.rs=false
+result.test8.company.new_order.totaltime=1182.328
+result.test6.company.payment.minimumtime=0.0
+result.test4.company.heapused=198.83654022216797
+result.test6.company.stock_level.coeffvartime=447.9845413097016
+result.test1.company.order_status.minimumtime=0.0
+result.test4.company.cust_report.totaltime=144.553
+result.test3.elapsed_milliseconds=240023
+result.test8.company.new_order.averagetime=0.07020533
+input.per_jvm_warehouse_rampup=3
+result.test6.company.new_order.maximumtime=1.485
+config.hw.disk=1 x 4GB SCSI (classes) 1 x 12GB SCSI (OS)
+result.test5.company.new_order.minimumtime=0.0
+result.test2.company.stock_level.stddevtime=0.027388236797867112
+input.jvm_instances=1
+result.test3.end_time_milliseconds=1250844450887
+result.test4.company.order_status.stddevtime=0.05330682879504388
+result.test1.company.order_status.totaltime=4.53
+java.vm.specification.vendor=Sun Microsystems Inc.
+result.test1.company.stock_level.totaltime=5.798
+result.test1.company.new_order.count=168675
+java.vm.name=IBM J9 VM
+result.test6.company.delivery.count=1597
+result.test3.company.max_warehouse_transactions=29698
+result.test4.company.cust_report.stddevtime=0.2263100516895718
+result.test8.company.min_thread_transactions=4565
+result.test3.company.cust_report.minimumtime=0.0
+result.test4.company.cust_report.count=11492
+java.vendor.url=http\://www.ibm.com/
+java.io.tmpdir=/tmp
+result.test7.company.payment.averagetime=0.013759755
+result.test5.company.score=376.4134761103802
+result.test4.company.order_status.maximumtime=1.014
+result.test8.company.stock_level.minimumtime=0.0
+java.util.prefs.PreferencesFactory=java.util.prefs.FileSystemPreferencesFactory
+java.compiler=j9jit23
+ibm.signalhandling.sigint=true
+config.hw.primaryCache=4KBI+4KBD
+result.test7.company.stock_level.coeffvartime=490.22424301701835
+sun.boot.library.path=/home/softwares/java/jre/bin
+result.test7.company.payment.coeffvartime=526.6413474145021
+result.test7.company.order_status.averagetime=0.013761012
+result.test7.company.new_order.stddevtime=0.48033224038324523
+result.test3.company.payment.coeffvartime=695.3649487885486
+result.test1.company.max_thread_transactions=383873
+result.test8.company.delivery.stddevtime=0.35038280488908446
+result.test3.company.new_order.stddevtime=0.05228269750239378
+result.test1.company.order_status.coeffvartime=680.4721826354922
+result.test2.company.max_warehouse_transactions=51199
+result.test5.company.payment.maximumtime=1.837
+java.runtime.name=Java(TM) 2 Runtime Environment, Standard Edition
+result.test6.elapsed_milliseconds=240124
+result.test5.company.cust_report.averagetime=0.013255848
+result.test4.end_time_milliseconds=1250844746130
+config.sw.tuning=Operating system tunings<UL><LI>bufcache\=1024</LI><LI>maxthreads_per_user\=65536</LI></UL>
+result.test3.company.stock_level.maximumtime=0.676
+result.test5.warehouses=5
+result.test1.company.delivery.coeffvartime=640.7695894728083
+input.orderlines_per_order=10
+result.test4.company.score=270.9532786467621
+result.test5.company.new_order.totaltime=563.149
+result.test3.company.payment.minimumtime=0.0
+config.hw.ncoresperchip=2
+result.test2.company.cust_report.coeffvartime=795.7243915842682
+result.test8.company.min_warehouse_transactions=4565
+result.test8.company.payment.totaltime=316.975
+result.test1.company.heapsize=2048.0
+result.test5.company.delivery.minimumtime=0.0
+ibm.signalhandling.sigchain=true
+result.test3.company.new_order.averagetime=0.0086750705
+result.test1.company.delivery.minimumtime=0.0
+result.test1.company.new_order.maximumtime=2.36
+user.home=/root
+result.test8.company.order_status.averagetime=0.021871774
+config.sw.vendor=Phobos Ltd
+result.test1.company.max_warehouse_transactions=383873
+result.test4.company.new_order.count=30404
+java.specification.name=Java Platform API Specification
+config.test.testedBy=Neptune Corp.
+result.test1.company.stock_level.averagetime=4.984526E-4
+result.test5.company.order_status.stddevtime=0.0461782100763828
+result.test8.company.delivery.maximumtime=3.048
+result.test7.company.stock_level.stddevtime=0.07425657950756381
+result.test8.company.cust_report.count=6439
+result.test6.company.order_status.totaltime=21.497
+result.test4.company.payment.averagetime=0.007956615
+result.test4.company.delivery.maximumtime=1.205
+result.test3.start_time_milliseconds=1250844210864
+result.test1.company.stock_level.coeffvartime=1601.2608948015024
+result.test7.company.delivery.averagetime=0.060109135
+result.test5.company.new_order.coeffvartime=493.4649989364593
+result.test3.company.score=370.539489965545
+java.specification.vendor=Sun Microsystems Inc.
+result.test6.company.delivery.totaltime=143.474
+result.test4.company.cust_report.minimumtime=0.0
+result.test3.company.delivery.averagetime=0.029907236
+java.version=1.5.0
+result.test7.company.min_warehouse_transactions=9719
+result.test3.company.cust_report.coeffvartime=603.0477159899262
+result.test1.warehouses=1
+config.sw.JVM=Phobic Java 1.5.0
+result.test5.company.delivery.stddevtime=0.13720650903408604
+result.test3.company.delivery.totaltime=80.6
+result.test7.company.cust_report.totaltime=255.489
+result.test6.company.order_status.minimumtime=0.0
+result.test2.company.max_thread_transactions=51199
+input.wait_time_percent=0
+result.test8.company.new_order.minimumtime=0.0
+result.test2.company.payment.maximumtime=16.042
+result.test4.company.stock_level.totaltime=18.576
+config.testx.testedByName=Willie the Mailboy
+result.test7.company.cust_report.count=11731
+config.hw.vendor=Neptune Ocean King Systems
+result.test2.company.new_order.totaltime=228.926
+result.test2.company.stock_level.coeffvartime=738.260028577063
+result.test3.company.stock_level.count=2695
+result.test1.end_time_milliseconds=1250843935850
+result.test2.company.score=419.44393527853225
+result.test6.company.cust_report.averagetime=0.018781926
+result.test1.company.stock_level.stddevtime=0.007981525677492357
+result.test4.company.stock_level.maximumtime=0.866
+config.hw.nchips=1
+result.test7.company.payment.minimumtime=0.0
+result.test5.company.stock_level.totaltime=28.618
+result.test3.company.cust_report.stddevtime=0.04656832342282414
+result.test7.company.order_status.count=2134
+line.separator=
+java.specification.version=1.5
+result.test8.company.heapused=827.0841445922852
+java.vm.info=J2RE 1.5.0 IBM J9 2.3 Linux x86-32 j9vmxi3223ifx-20080811 (JIT enabled)
+result.test7.company.new_order.count=30970
+com.ibm.oti.vm.library.version=23
+result.test2.company.order_status.count=3049
+result.test7.company.order_status.minimumtime=0.0
+result.test2.company.order_status.coeffvartime=687.4249316168568
+result.test1.company.payment.averagetime=4.613844E-4
+sun.boot.class.path=/home/softwares/java/jre/lib/vm.jar\:/home/softwares/java/jre/lib/core.jar\:/home/softwares/java/jre/lib/charsets.jar\:/home/softwares/java/jre/lib/graphics.jar\:/home/softwares/java/jre/lib/security.jar\:/home/softwares/java/jre/lib/ibmpkcs.jar\:/home/softwares/java/jre/lib/ibmorb.jar\:/home/softwares/java/jre/lib/ibmcfw.jar\:/home/softwares/java/jre/lib/ibmorbapi.jar\:/home/softwares/java/jre/lib/ibmjcefw.jar\:/home/softwares/java/jre/lib/ibmjgssprovider.jar\:/home/softwares/java/jre/lib/ibmjsseprovider2.jar\:/home/softwares/java/jre/lib/ibmjaaslm.jar\:/home/softwares/java/jre/lib/ibmcertpathprovider.jar\:/home/softwares/java/jre/lib/server.jar\:/home/softwares/java/jre/lib/xml.jar
+result.test6.start_time_milliseconds=1250845073530
+result.test4.company.order_status.coeffvartime=644.1587721382992
+result.test6.company.cust_report.count=8731
+result.test4.company.order_status.count=2095
+result.test2.company.stock_level.averagetime=0.003709836
+result.test6.company.order_status.stddevtime=0.06141997732308565
+result.test8.company.payment.averagetime=0.027245574
+result.test2.company.stock_level.count=3050
+result.test7.company.payment.stddevtime=0.07246455679068899
+input.warehouse_population=60
+result.test3.company.order_status.averagetime=0.006011503
+result.test5.company.cust_report.minimumtime=0.0
+input.starting_number_warehouses=0
+config.benchmark_versionDate=March 15, 2006
+result.test2.company.payment.stddevtime=0.09554545055364855
+config.sw.JVMbitness=32
+result.test2.end_time_milliseconds=1250844192332
+result.test2.company.delivery.stddevtime=0.04126248645428102
+config.hw.available=Jan-2000
+result.test2.company.cust_report.totaltime=76.193
+result.test6.company.new_order.averagetime=0.036763452
+result.test5.company.delivery.coeffvartime=303.46653427561733
+result.test1.company.min_thread_transactions=383873
+result.test3.company.new_order.minimumtime=0.0
+result.test3.warehouses=3
+com.ibm.util.extralibs.properties=
+result.test6.company.payment.count=15975
+result.test6.company.payment.maximumtime=1.431
+config.sw.aot=<p>precompiled code for<ul><li>Deliverytransaction.process</li><li>TransactionManager.go</li></ul>loaded at startup</p>
+result.test3.company.max_thread_transactions=29698
+java.awt.printerjob=sun.print.PSPrinterJob
+config.sw.procsAvailtoJava=1
+result.test3.company.cust_report.totaltime=114.566
+sun.jnu.encoding=UTF-8
+result.test7.company.new_order.averagetime=0.030304005
+result.test6.company.new_order.totaltime=854.015
+result.test5.company.new_order.maximumtime=1.95
+result.test4.company.payment.minimumtime=0.0
+result.test4.company.order_status.averagetime=0.008275418
+java.runtime.version=pxi32devifx-20080811b (SR8a)
+result.test7.company.cust_report.averagetime=0.021778962
+result.test5.company.stock_level.maximumtime=1.458
+result.test8.company.payment.coeffvartime=403.1861245580983
+result.test6.company.stock_level.stddevtime=0.0738515279840984
+result.test8.company.new_order.stddevtime=0.18707175258512748
+result.test5.company.order_status.totaltime=24.584
+result.test8.warehouses=8
+result.test4.company.payment.coeffvartime=564.7036983547852
+result.test4.company.new_order.stddevtime=0.24658413858593667
+result.test5.company.heapsize=2048.0
+result.test4.company.new_order.coeffvartime=1260.1682460460722
+user.timezone=Asia/Shanghai
+java.assistive=ON
+result.test8.company.cust_report.coeffvartime=351.0739297487081
+result.test2.elapsed_milliseconds=240044
+result.test8.company.cust_report.stddevtime=0.1247727323798934
+input.increment_number_warehouses=1
+config.sw.JVMheapInitial=256
+com.ibm.cpu.endian=little
+result.test5.company.payment.averagetime=0.009431304
+config.hw.otherCache=
+java.ext.dirs=/home/softwares/java/jre/lib/ext
+input.suite=SPECjbb
+config.hw.model=TurboBlaster 2
+result.test7.company.payment.count=21349
+result.test3.company.stock_level.averagetime=0.005795176
+java.awt.fonts=
+result.test7.company.order_status.stddevtime=0.07583102998376291
+result.validity.200_check=true
+result.test3.company.heapused=1334.3661041259766
+java.class.path=./jbb.jar\:./check.jar\:.\:/home/softwares/java/jre/lib\:/home/softwares/java/lib\:/home/softwares/java/lib/tools.jar
+result.test6.company.delivery.minimumtime=0.0010
+result.test6.company.cust_report.minimumtime=0.0
+config.sw.other=Neptune JIT Accelerator 2.3b6
+result.test2.company.delivery.minimumtime=0.0
+result.test2.company.order_status.minimumtime=0.0
+result.test6.company.delivery.stddevtime=0.21636111233128957
+result.test4.company.heapsize=2048.0
+result.test8.company.stock_level.totaltime=38.128
+os.version=2.6.16.46-0.12-default
+config.hw.memory_description=punch cards
+result.test3.company.payment.maximumtime=1.709
+sun.desktop=gnome
+result.test2.company.min_thread_transactions=49486
+result.test3.company.order_status.coeffvartime=747.2964024744716
+result.test1.company.delivery.count=11632
+result.test2.company.cust_report.stddevtime=0.036228639717944516
+result.test5.company.delivery.maximumtime=1.591
+config.sw.OSavailable=May-2000
+result.test8.company.delivery.averagetime=0.18258849
+result.test5.company.order_status.coeffvartime=514.489576143884
+result.test5.company.stock_level.count=2738
+result.test1.company.delivery.maximumtime=0.831
+result.test3.company.new_order.totaltime=338.935
+result.test4.company.max_thread_transactions=17982
+result.test2.company.new_order.averagetime=0.0051690303
+result.test4.company.delivery.averagetime=0.03903435
+result.test1.company.payment.minimumtime=0.0
+config.hw.memory=4096
+result.test2.company.heapused=558.5227813720703
+result.test5.elapsed_milliseconds=240188
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+result.test1.company.cust_report.maximumtime=1.236
+result.test5.company.order_status.maximumtime=1.04
+java.vm.vendor=IBM Corporation
+result.test8.company.payment.count=11634
+result.test8.company.stock_level.coeffvartime=356.46752007078817
+result.test8.company.cust_report.averagetime=0.0355403
+result.test3.company.order_status.minimumtime=0.0
+result.test6.company.stock_level.maximumtime=1.131
+config.sw.JVMheapMax=1024
+input.show_warehouse_detail=false
+result.test3.company.new_order.count=39070
+result.test8.company.delivery.coeffvartime=191.89753350815838
+result.test2.company.payment.averagetime=0.0036994298
+sun.java2d.fontpath=
+result.test2.start_time_milliseconds=1250843952288
+result.test4.company.stock_level.count=2095
+result.test4.company.payment.count=20952
+result.test6.company.cust_report.totaltime=163.985
+input.deterministic_random_seed=false
+result.test3.company.payment.totaltime=151.709
+file.encoding=UTF-8
+result.test6.company.order_status.maximumtime=1.033
+result.test4.company.stock_level.averagetime=0.008866826
+result.test8.company.order_status.stddevtime=0.08232770955564561
+result.test8.company.new_order.maximumtime=2.68
+result.test7.company.new_order.minimumtime=0.0
+result.test3.company.delivery.stddevtime=0.11485689881105732
+result.test8.company.delivery.totaltime=212.533
+config.test.internalReference=http\://pluto.eng/specpubs/mar2000/
+config.hw.vendor.url=http\://www.neptune.com
+result.test3.company.stock_level.totaltime=15.618
+ -->
+</BODY></HTML>
