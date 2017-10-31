@@ -10,10 +10,6 @@ SPECjbb2005(Java Business Benchmark)基准测试模拟一个三层架构环境�
 
 下面为配置文件主要参数：
 
-具体在使用过程中需要修改配置文件SPECjbb.props，根据所测试服务器核数多少来设置warehouse，一般warehouse为核数的两倍.
-
-下面为配置文件主要参数：
-
 
 
     input.starting_number_warehouses=0
